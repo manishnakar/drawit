@@ -76,4 +76,109 @@ $npm run jshint
 $npm run build
 ```
 ##API document
-[API Reference](https://github.com/payu-india/drawit/wiki/API-Reference)
+> [Wiki](API Reference) ▸ **API Reference** 
+
+
+* [Create a DrawIt graph object](#graph-object) 
+* [Choose Graph type](#graph-type)
+* [Define Selector](#graph-node-selection)
+* [Override Graph Dimensions](#graph-dimensions) 
+* [Override Data](#graph-data) 
+* [Bind Node Listener](#graph-node-listener) 
+* [Unbind Node Listener](#graph-unbind-listener) 
+
+##[Graph Object](#graph-object)
+DI constructor will return graph object based on graph type
+```js
+var stackedGraph = new DI({ //Initiate a graph
+  type:DI.GraphNames.stacked, //mandatory type for element,
+});
+//DI constructor will return graph object based on graph type
+//User can see list of the graph available in DI.GraphNames enum
+```
+##[Graph Type](#graph-type)
+User has to choose a type while creating new DI object. User can see list of the graph available in DI.GraphNames enum.
+```js
+var config = { 
+ type:DI.GraphNames.stacked, //mandatory type for element,
+};
+```
+```js
+var stackedGraph = new DI(config);
+```
+##[Graph Node Selection](#graph-node-selection)
+Similarly as graph type, User has to choose a selector on which d3 will create/draw graph. Selector will be relative to Document body.
+```js
+var config = { 
+ selector:"svg.stacked" //mandatory selector for element
+};
+```
+```js
+var stackedGraph = new DI(config);
+```
+##[Graph Dimensions](#graph-dimensions) 
+Similarly as graph selector, User can choose dimansion of the graph.By default width and height of graph chosen from *_DrawIt.default_* or *_DI.default_* which are 600x600. 
+```js
+var config = { 
+  dim:{   //Define/override dimension of the graph
+    height:200,
+    width:200
+  }
+};
+```
+```js
+var stackedGraph = new DI(config);
+```
+```js
+//Override DI defaults
+DrawIt.defaults = {
+        height: 600,
+        width: 600
+    };
+```
+##[Graph Data](#graph-data) 
+User can pass data to graph object in two way. 
+
+1. Using DI constructor
+2. Using instance variable
+```js
+//example.js
+//Using DI constructor
+var stackedGraph = new DI({ //Initiate a graph
+  //...
+  data:[ //Data source for graph to draw
+    {
+      name: "Hoodie",
+      values: [
+        { count: 6, date: "2014-01-01" },
+        { count: 7, date: "2014-01-02" },
+        { count: 8, date: "2014-01-03" }
+      ]
+    }
+    //...more data here
+  ]
+})
+``` 
+```js
+//example.js
+//Using instance variable
+var stackedGraph = new DI({ //Initiate a graph
+  //...
+  //config here
+  //...
+})
+stackedGraph.data = [ //Data source for graph to draw
+  {
+    name: "Hoodie",
+    values: [
+      { count: 6, date: "2014-01-01" },
+      { count: 7, date: "2014-01-02" },
+      { count: 8, date: "2014-01-03" }
+    ]
+  }
+  //...more data here
+];
+``` 
+##[Graph Node Listener](#graph-node-listener) 
+
+##[Graph Unbind Listener](#graph-unbind-listener) 
