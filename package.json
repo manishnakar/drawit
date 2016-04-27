@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deepakshrma/drawit.git"
+    "url": "git+https://github.com/payu-india/drawit"
   },
   "keywords": [
     "d3",
@@ -20,9 +20,9 @@
   "author": "Deepak Vishwakarma <deepak.m.shrma@gmail.com> (https://github.com/deepakshrma)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deepakshrma/drawit/issues"
+    "url": "https://github.com/payu-india/drawit/issues"
   },
-  "homepage": "https://github.com/deepakshrma/drawit#readme",
+  "homepage": "https://github.com/payu-india/drawit#readme",
   "devDependencies": {
     "jshint": "^2.9.2",
     "uglify-js": "^2.6.2"
