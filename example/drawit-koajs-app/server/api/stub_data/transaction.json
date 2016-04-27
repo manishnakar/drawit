@@ -1,0 +1,758 @@
+{
+  "result": "success",
+  "data": {
+    "total": {
+      "total": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 5228,
+            "totalTxn": 7339,
+            "totalBouncedTxn": 46,
+            "totalDroppedTxn": 772,
+            "totalFailedTxn": 964
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 4628,
+            "totalTxn": 6329,
+            "totalBouncedTxn": 33,
+            "totalDroppedTxn": 573,
+            "totalFailedTxn": 834
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 4130,
+            "totalTxn": 5789,
+            "totalBouncedTxn": 30,
+            "totalDroppedTxn": 556,
+            "totalFailedTxn": 786
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 3335,
+            "totalTxn": 4566,
+            "totalBouncedTxn": 19,
+            "totalDroppedTxn": 419,
+            "totalFailedTxn": 597
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 4850,
+            "totalTxn": 6601,
+            "totalBouncedTxn": 36,
+            "totalDroppedTxn": 546,
+            "totalFailedTxn": 905
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 5101,
+            "totalTxn": 6797,
+            "totalBouncedTxn": 39,
+            "totalDroppedTxn": 561,
+            "totalFailedTxn": 806
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 2264,
+            "totalTxn": 3136,
+            "totalBouncedTxn": 23,
+            "totalDroppedTxn": 252,
+            "totalFailedTxn": 448
+          }
+        },
+        "totalTxn": 40557,
+        "totalSuccessTxn": 29536
+      },
+      "CC": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 2227,
+            "totalTxn": 2987,
+            "totalBouncedTxn": 19,
+            "totalDroppedTxn": 193,
+            "totalFailedTxn": 461
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 1987,
+            "totalTxn": 2535,
+            "totalBouncedTxn": 20,
+            "totalDroppedTxn": 116,
+            "totalFailedTxn": 351
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 1837,
+            "totalTxn": 2366,
+            "totalBouncedTxn": 13,
+            "totalDroppedTxn": 148,
+            "totalFailedTxn": 309
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 1427,
+            "totalTxn": 1828,
+            "totalBouncedTxn": 8,
+            "totalDroppedTxn": 85,
+            "totalFailedTxn": 262
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 2201,
+            "totalTxn": 2820,
+            "totalBouncedTxn": 13,
+            "totalDroppedTxn": 134,
+            "totalFailedTxn": 413
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 2235,
+            "totalTxn": 2770,
+            "totalBouncedTxn": 18,
+            "totalDroppedTxn": 115,
+            "totalFailedTxn": 350
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 1014,
+            "totalTxn": 1314,
+            "totalBouncedTxn": 13,
+            "totalDroppedTxn": 59,
+            "totalFailedTxn": 202
+          }
+        },
+        "totalTxn": 16620,
+        "totalSuccessTxn": 12928
+      },
+      "DC": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 1324,
+            "totalTxn": 1996,
+            "totalBouncedTxn": 25,
+            "totalDroppedTxn": 168,
+            "totalFailedTxn": 395
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 1242,
+            "totalTxn": 1830,
+            "totalBouncedTxn": 8,
+            "totalDroppedTxn": 146,
+            "totalFailedTxn": 378
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 1089,
+            "totalTxn": 1699,
+            "totalBouncedTxn": 17,
+            "totalDroppedTxn": 122,
+            "totalFailedTxn": 394
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 917,
+            "totalTxn": 1315,
+            "totalBouncedTxn": 6,
+            "totalDroppedTxn": 82,
+            "totalFailedTxn": 266
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 1282,
+            "totalTxn": 1889,
+            "totalBouncedTxn": 23,
+            "totalDroppedTxn": 118,
+            "totalFailedTxn": 382
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 1378,
+            "totalTxn": 1981,
+            "totalBouncedTxn": 17,
+            "totalDroppedTxn": 122,
+            "totalFailedTxn": 382
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 583,
+            "totalTxn": 842,
+            "totalBouncedTxn": 5,
+            "totalDroppedTxn": 46,
+            "totalFailedTxn": 175
+          }
+        },
+        "totalTxn": 11552,
+        "totalSuccessTxn": 7815
+      },
+      "NB": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 1677,
+            "totalTxn": 2356,
+            "totalBouncedTxn": 2,
+            "totalDroppedTxn": 411,
+            "totalFailedTxn": 108
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 1399,
+            "totalTxn": 1964,
+            "totalBouncedTxn": 5,
+            "totalDroppedTxn": 311,
+            "totalFailedTxn": 105
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 1204,
+            "totalTxn": 1724,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 286,
+            "totalFailedTxn": 83
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 991,
+            "totalTxn": 1423,
+            "totalBouncedTxn": 5,
+            "totalDroppedTxn": 252,
+            "totalFailedTxn": 69
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 1367,
+            "totalTxn": 1892,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 294,
+            "totalFailedTxn": 110
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 1488,
+            "totalTxn": 2046,
+            "totalBouncedTxn": 4,
+            "totalDroppedTxn": 324,
+            "totalFailedTxn": 74
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 667,
+            "totalTxn": 980,
+            "totalBouncedTxn": 5,
+            "totalDroppedTxn": 147,
+            "totalFailedTxn": 71
+          }
+        },
+        "totalTxn": 12385,
+        "totalSuccessTxn": 8793
+      }
+    },
+    "web": {
+      "total": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 5025,
+            "totalTxn": 7015,
+            "totalBouncedTxn": 46,
+            "totalDroppedTxn": 696,
+            "totalFailedTxn": 923
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 4390,
+            "totalTxn": 5952,
+            "totalBouncedTxn": 33,
+            "totalDroppedTxn": 497,
+            "totalFailedTxn": 775
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 3903,
+            "totalTxn": 5441,
+            "totalBouncedTxn": 30,
+            "totalDroppedTxn": 494,
+            "totalFailedTxn": 733
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 3148,
+            "totalTxn": 4280,
+            "totalBouncedTxn": 19,
+            "totalDroppedTxn": 371,
+            "totalFailedTxn": 555
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 4661,
+            "totalTxn": 6288,
+            "totalBouncedTxn": 34,
+            "totalDroppedTxn": 488,
+            "totalFailedTxn": 844
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 4882,
+            "totalTxn": 6456,
+            "totalBouncedTxn": 38,
+            "totalDroppedTxn": 490,
+            "totalFailedTxn": 759
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 2178,
+            "totalTxn": 2996,
+            "totalBouncedTxn": 23,
+            "totalDroppedTxn": 227,
+            "totalFailedTxn": 421
+          }
+        },
+        "totalTxn": 38428,
+        "totalSuccessTxn": 28187
+      },
+      "CC": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 2157,
+            "totalTxn": 2885,
+            "totalBouncedTxn": 19,
+            "totalDroppedTxn": 179,
+            "totalFailedTxn": 443
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 1895,
+            "totalTxn": 2413,
+            "totalBouncedTxn": 20,
+            "totalDroppedTxn": 108,
+            "totalFailedTxn": 329
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 1735,
+            "totalTxn": 2228,
+            "totalBouncedTxn": 13,
+            "totalDroppedTxn": 135,
+            "totalFailedTxn": 288
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 1349,
+            "totalTxn": 1722,
+            "totalBouncedTxn": 8,
+            "totalDroppedTxn": 75,
+            "totalFailedTxn": 246
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 2125,
+            "totalTxn": 2712,
+            "totalBouncedTxn": 13,
+            "totalDroppedTxn": 118,
+            "totalFailedTxn": 397
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 2138,
+            "totalTxn": 2644,
+            "totalBouncedTxn": 18,
+            "totalDroppedTxn": 106,
+            "totalFailedTxn": 331
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 979,
+            "totalTxn": 1268,
+            "totalBouncedTxn": 13,
+            "totalDroppedTxn": 54,
+            "totalFailedTxn": 196
+          }
+        },
+        "totalTxn": 15872,
+        "totalSuccessTxn": 12378
+      },
+      "DC": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 1238,
+            "totalTxn": 1863,
+            "totalBouncedTxn": 25,
+            "totalDroppedTxn": 142,
+            "totalFailedTxn": 377
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 1143,
+            "totalTxn": 1671,
+            "totalBouncedTxn": 8,
+            "totalDroppedTxn": 124,
+            "totalFailedTxn": 343
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 1010,
+            "totalTxn": 1570,
+            "totalBouncedTxn": 17,
+            "totalDroppedTxn": 102,
+            "totalFailedTxn": 364
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 850,
+            "totalTxn": 1212,
+            "totalBouncedTxn": 6,
+            "totalDroppedTxn": 75,
+            "totalFailedTxn": 240
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 1210,
+            "totalTxn": 1759,
+            "totalBouncedTxn": 21,
+            "totalDroppedTxn": 106,
+            "totalFailedTxn": 338
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 1295,
+            "totalTxn": 1847,
+            "totalBouncedTxn": 17,
+            "totalDroppedTxn": 101,
+            "totalFailedTxn": 354
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 545,
+            "totalTxn": 775,
+            "totalBouncedTxn": 5,
+            "totalDroppedTxn": 37,
+            "totalFailedTxn": 156
+          }
+        },
+        "totalTxn": 10697,
+        "totalSuccessTxn": 7291
+      },
+      "NB": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 1630,
+            "totalTxn": 2267,
+            "totalBouncedTxn": 2,
+            "totalDroppedTxn": 375,
+            "totalFailedTxn": 103
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 1352,
+            "totalTxn": 1868,
+            "totalBouncedTxn": 5,
+            "totalDroppedTxn": 265,
+            "totalFailedTxn": 103
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 1158,
+            "totalTxn": 1643,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 257,
+            "totalFailedTxn": 81
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 949,
+            "totalTxn": 1346,
+            "totalBouncedTxn": 5,
+            "totalDroppedTxn": 221,
+            "totalFailedTxn": 69
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 1326,
+            "totalTxn": 1817,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 264,
+            "totalFailedTxn": 109
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 1449,
+            "totalTxn": 1965,
+            "totalBouncedTxn": 3,
+            "totalDroppedTxn": 283,
+            "totalFailedTxn": 74
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 654,
+            "totalTxn": 953,
+            "totalBouncedTxn": 5,
+            "totalDroppedTxn": 136,
+            "totalFailedTxn": 69
+          }
+        },
+        "totalTxn": 11859,
+        "totalSuccessTxn": 8518
+      }
+    },
+    "mobile": {
+      "total": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 203,
+            "totalTxn": 324,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 76,
+            "totalFailedTxn": 41
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 238,
+            "totalTxn": 377,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 76,
+            "totalFailedTxn": 59
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 227,
+            "totalTxn": 348,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 62,
+            "totalFailedTxn": 53
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 187,
+            "totalTxn": 286,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 48,
+            "totalFailedTxn": 42
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 189,
+            "totalTxn": 313,
+            "totalBouncedTxn": 2,
+            "totalDroppedTxn": 58,
+            "totalFailedTxn": 61
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 219,
+            "totalTxn": 341,
+            "totalBouncedTxn": 1,
+            "totalDroppedTxn": 71,
+            "totalFailedTxn": 47
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 86,
+            "totalTxn": 140,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 25,
+            "totalFailedTxn": 27
+          }
+        },
+        "totalTxn": 2129,
+        "totalSuccessTxn": 1349
+      },
+      "CC": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 70,
+            "totalTxn": 102,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 14,
+            "totalFailedTxn": 18
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 92,
+            "totalTxn": 122,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 8,
+            "totalFailedTxn": 22
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 102,
+            "totalTxn": 138,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 13,
+            "totalFailedTxn": 21
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 78,
+            "totalTxn": 106,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 10,
+            "totalFailedTxn": 16
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 76,
+            "totalTxn": 108,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 16,
+            "totalFailedTxn": 16
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 97,
+            "totalTxn": 126,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 9,
+            "totalFailedTxn": 19
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 35,
+            "totalTxn": 46,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 5,
+            "totalFailedTxn": 6
+          }
+        },
+        "totalTxn": 748,
+        "totalSuccessTxn": 550
+      },
+      "DC": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 86,
+            "totalTxn": 133,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 26,
+            "totalFailedTxn": 18
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 99,
+            "totalTxn": 159,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 22,
+            "totalFailedTxn": 35
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 79,
+            "totalTxn": 129,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 20,
+            "totalFailedTxn": 30
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 67,
+            "totalTxn": 103,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 7,
+            "totalFailedTxn": 26
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 72,
+            "totalTxn": 130,
+            "totalBouncedTxn": 2,
+            "totalDroppedTxn": 12,
+            "totalFailedTxn": 44
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 83,
+            "totalTxn": 134,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 21,
+            "totalFailedTxn": 28
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 38,
+            "totalTxn": 67,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 9,
+            "totalFailedTxn": 19
+          }
+        },
+        "totalTxn": 855,
+        "totalSuccessTxn": 524
+      },
+      "NB": {
+        "data": {
+          "Thu Apr 07 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-06T18:30:00.000Z",
+            "totalSuccessTxn": 47,
+            "totalTxn": 89,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 36,
+            "totalFailedTxn": 5
+          },
+          "Fri Apr 08 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-07T18:30:00.000Z",
+            "totalSuccessTxn": 47,
+            "totalTxn": 96,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 46,
+            "totalFailedTxn": 2
+          },
+          "Sat Apr 09 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-08T18:30:00.000Z",
+            "totalSuccessTxn": 46,
+            "totalTxn": 81,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 29,
+            "totalFailedTxn": 2
+          },
+          "Sun Apr 10 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-09T18:30:00.000Z",
+            "totalSuccessTxn": 42,
+            "totalTxn": 77,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 31,
+            "totalFailedTxn": 0
+          },
+          "Mon Apr 11 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-10T18:30:00.000Z",
+            "totalSuccessTxn": 41,
+            "totalTxn": 75,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 30,
+            "totalFailedTxn": 1
+          },
+          "Tue Apr 12 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-11T18:30:00.000Z",
+            "totalSuccessTxn": 39,
+            "totalTxn": 81,
+            "totalBouncedTxn": 1,
+            "totalDroppedTxn": 41,
+            "totalFailedTxn": 0
+          },
+          "Wed Apr 13 2016 00:00:00 GMT+0530": {
+            "interval": "2016-04-12T18:30:00.000Z",
+            "totalSuccessTxn": 13,
+            "totalTxn": 27,
+            "totalBouncedTxn": 0,
+            "totalDroppedTxn": 11,
+            "totalFailedTxn": 2
+          }
+        },
+        "totalTxn": 526,
+        "totalSuccessTxn": 275
+      }
+    },
+    "unit": "days",
+    "showMobilePay": false,
+    "date_limit": "1 month"
+  }
+}
