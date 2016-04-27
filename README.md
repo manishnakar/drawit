@@ -74,6 +74,6 @@ $npm run jshint
 
 #Build distribution js
 $npm run build
-
-
 ```
+##API document
+[API Reference](https://github.com/payu-india/drawit/wiki/API-Reference)
