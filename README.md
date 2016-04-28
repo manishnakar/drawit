@@ -96,6 +96,7 @@ var stackedGraph = new DI({ //Initiate a graph
 //DI constructor will return graph object based on graph type
 //User can see list of the graph available in DI.GraphNames enum
 ```
+
 ##[Graph Type](#graph-type)
 User has to choose a type while creating new DI object. User can see list of the graph available in DI.GraphNames enum.
 ```js
@@ -106,6 +107,7 @@ var config = {
 ```js
 var stackedGraph = new DI(config);
 ```
+
 ##[Graph Node Selection](#graph-node-selection)
 Similarly as graph type, User has to choose a selector on which d3 will create/draw graph. Selector will be relative to Document body.
 ```js
@@ -116,6 +118,7 @@ var config = {
 ```js
 var stackedGraph = new DI(config);
 ```
+
 ##[Graph Dimensions](#graph-dimensions) 
 Similarly as graph selector, User can choose dimansion of the graph.By default width and height of graph chosen from *_DrawIt.default_* or *_DI.default_* which are 600x600. 
 ```js
@@ -136,6 +139,7 @@ DrawIt.defaults = {
         width: 600
     };
 ```
+
 ##[Graph Data](#graph-data) 
 User can pass data to graph object in two way. 
 
@@ -178,7 +182,47 @@ stackedGraph.data = [ //Data source for graph to draw
   }
   //...more data here
 ];
-``` 
+```
+
 ##[Graph Node Listener](#graph-node-listener) 
+Binding an event to an element is never been so easy. Just grab the element attached to the graph and using *_on_* method you can bind a callback to any DOM element. Just like Jquery.
+```js
+var listener = stackedGraph.on('layers', 'click', function () { //This will return listener object
+    //Bind event on stackedGraph['layers'] element, params {selector(available in that graph), event, callback}
+    console.log("Hie ha...!!", arguments);
+    console.log(listener);
+    stackedGraph.unbind(0);//Alternate way to Unbind listener on stackedGraph['layers'] element, using listener id
+  })
+```
+>Note: *_.on_*(binding) will throw an error if _'layers'_ will not attacked to the stackedGraph instance.
 
 ##[Graph Unbind Listener](#graph-unbind-listener) 
+Similarly unbinding is very easy. When user bind and event using *_.on_* method. It returns a listener object which contains all the details of the that event listener. Developer can unbind an event either using that listener object or developer can use unbind method of graph instance.
+```js
+//Using listener instance
+var listener = stackedGraph.on('layers', 'click', function () { //This will return listener object
+    console.log("Do something here on click");
+});
+/*
+snapshot of listener
+{
+    id:0,
+    event:"click",
+    prop:"layers",
+    callback:[function],
+    unbind:[function]
+}
+ */
+setTimeout(function unbindAfter10Sec() {
+  listener.unbind();
+}, 10 * 1000)
+```
+```js
+//Using unbind method
+var listener = stackedGraph.on('layers', 'click', function () { //This will return listener object
+    console.log("Do something here on click");
+});
+setTimeout(function unbindAfter10Sec() {
+  stackedGraph.unbind(listener.id);
+}, 10 * 1000)
+```
