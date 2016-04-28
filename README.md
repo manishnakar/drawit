@@ -74,6 +74,9 @@ $npm run jshint
 
 #Build distribution js
 $npm run build
+
+#Build distribution js with d3 lib
+$npm run d3build
 ```
 ##API document
 > [Wiki](API Reference) ▸ **API Reference** 

@@ -5,8 +5,12 @@
   "main": "lib/drawit.js",
   "scripts": {
     "build": "cp src/drawit.js lib/drawit.js && ./node_modules/uglify-js/bin/uglifyjs src/drawit.js --compress -o lib/drawit.min.js",
+    "d3build": "cp src/drawit.js lib/drawit.js && cat ./bower_components/d3/d3.min.js >> ./lib/drawit.min.js && ./node_modules/uglify-js/bin/uglifyjs src/drawit.js --compress >> ./lib/drawit.min.js",
     "jshint": "./node_modules/jshint/bin/jshint src/*js || true",
     "clean": "rm -rf ./lib/*",
+    "bower": "bower install",
+    "pred3build": "npm run bower && npm run clean",
+    "prebuild": "npm run bower && npm run clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
